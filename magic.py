@@ -1,6 +1,6 @@
 import random
 
-answers_array = ["No.", "Go fuck yourself.", "Yes.", "Maybe.", "Not sure.", "Fuck off.", "Try again later.", "I don't know.", "What do you think?"]
+answers_array = ["No.", "Go fuck yourself.", "Yes.", "Maybe.", "Not sure.", "Fuck off.", "Try again later.", "I don't know.", "What do you think?", "You're retarded."]
 questions_array = ["What is it?", "What do you want?", "Go ahead, ask your question.", "Yes daddy?"]
 
 que = random.choice(questions_array)
