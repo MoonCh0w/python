@@ -5,7 +5,7 @@ questions_array = ["What is it?", "What do you want?", "Go ahead, ask your quest
 
 que = random.choice(questions_array)
 ans = random.choice(answers_array)
-inp = raw_input(("%s: ") % (que))
+inp = input(("%s: ") % (que))
 
 if len(inp) >= 1:
     print(ans)
